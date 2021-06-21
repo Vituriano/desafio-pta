@@ -6,7 +6,7 @@
   "author": "Vituriano <viturianooliveira@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm install && cd ./client && npm server && cd ../server && node index.js",
+    "start": "cd ./client && npm server && cd ../server && node index.js",
     "install": "cd ./client && npm install && cd ../server && npm install"
   }
 }
