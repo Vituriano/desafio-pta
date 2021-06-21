@@ -1,0 +1,12 @@
+{
+  "name": "desafio-pta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Vituriano/desafio-pta.git",
+  "author": "Vituriano <viturianooliveira@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd ./client && yarn server && cd ../server && node index.js",
+    "install": "cd ./client && yarn && cd ../server && yarn"
+  }
+}
